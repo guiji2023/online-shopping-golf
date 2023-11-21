@@ -200,6 +200,7 @@ img.left-window {
   position: relative;
   border: none;
   margin: auto;
+  margin: 0;
 
   & .icon-new {
     position: absolute;
@@ -315,4 +316,8 @@ img.left-window {
     font-weight: 400;
     line-height: 32px;
   }
+}
+
+.latest a {
+  margin: left;
 }
